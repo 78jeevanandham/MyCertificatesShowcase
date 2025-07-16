@@ -4,7 +4,7 @@
 /* General Styles */
 body {
     font-family:Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(45deg, #a8e0ff, #f0f8ff);
+    background: linear-gradient(45deg, #f9ffa8, #ffda89);
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
     color: #333;
@@ -46,15 +46,14 @@ main {
      /* Increased padding */
     text-align: center;
 }
-.frame{
-    max-height: 28rem;
-}
 
 iframe {
     border: 3px solid #e05327;
     border-radius: 15px;
     max-height: 26rem;
     margin-top: 10px; /* Added margin for spacing */
+    bottom: 0;
+    background-color: white;
 }
 
 /* Footer Styles */
@@ -64,7 +63,7 @@ footer {
     color: #333;
     text-align: center;
     padding: 10px 0; /* Increased padding */
-    position: relative;
+    position: fixed;
     bottom: 0;
     width: 100%;
     border-bottom-left-radius: 15px;
@@ -77,12 +76,10 @@ footer {
 
 @media screen and (max-width:567px) {
     iframe{
-        max-width:15rem;
-        max-height: 57rem;
+        width :18rem;
+        max-height: 50rem;
     }
-    .frame{
-        max-height: 58rem;
-    }
+
     header{
         font-size: 10px;
         padding: 0.5px 0;
