@@ -51,7 +51,7 @@ main {
 }
 
 iframe {
-    border: 2px solid #e05327;
+    border: 3px solid #e05327;
     border-radius: 15px;
     max-height: 26rem;
     margin-top: 10px; /* Added margin for spacing */
