@@ -1,0 +1,93 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/* General Styles */
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(45deg, #a8e0ff, #f0f8ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Keyframes for Background Animation */
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+@media screen and (max-width:620px) {
+    .container {
+    padding: 0px; /* Increased padding */
+    text-align: center;
+    
+}
+}
+
+/* Header Styles */
+header {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    padding: 1px 0; /* Increased padding */
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+header h1{
+    margin-top: 30px;
+    color: #000000;
+}
+
+/* Main Content Styles */
+main {
+     /* Increased padding */
+    text-align: center;
+}
+.frame{
+    max-height: 28rem;
+}
+
+iframe {
+    border: 3px solid #e05327;
+    border-radius: 15px;
+    max-height: 26rem;
+    margin-top: 10px; /* Added margin for spacing */
+}
+
+/* Footer Styles */
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+    text-align: center;
+    padding: 10px 0; /* Increased padding */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+@media screen and (max-width:987px) {
+    
+}
+
+@media screen and (max-width:567px) {
+    iframe{
+        max-width:15rem;
+        max-height: 20rem;
+    }
+    header{
+        font-size: 10px;
+        padding: 0.5px 0;
+    }
+    header h1{
+        margin-top: 25px;
+    }
+    footer{
+        padding: 10px 0;
+    }
+}
