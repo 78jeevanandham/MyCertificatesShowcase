@@ -77,8 +77,11 @@ footer {
 
 @media screen and (max-width:567px) {
     iframe{
-        max-width:18rem;
-        max-height: 60rem;
+        max-width:15rem;
+        max-height: 57rem;
+    }
+    .frame{
+        max-height: 58rem;
     }
     header{
         font-size: 10px;
